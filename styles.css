@@ -1,0 +1,47 @@
+
+.whiteSquare{
+    background-color: wheat;
+    width:12%;
+    height: 12%;
+}
+
+
+.blackSquare{
+    background-color: rgb(73, 73, 73);
+    width:12%;
+    height: 12%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.grid{
+    display: none;
+    flex-wrap: wrap;
+    border: solid black;
+    opacity: 100%;
+    padding: 5px;
+    width: 800px;
+    height: 800px;
+    justify-content: space-evenly;
+}
+.infos{
+    width: 250px;
+    height: 200px;
+    margin-left: 30px;
+    padding: 5px;
+    display: none;
+    flex-wrap: wrap;
+    border: solid black;
+}
+
+#startButton{
+    width: 100px;
+    height: 75px;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    top: 300px;
+}
+
